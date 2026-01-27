@@ -49,6 +49,7 @@ form.addEventListener("submit", async (e) => {
       telp_pelatih: f.telp_pelatih.value,
       riwayat: f.riwayat.value,
       nominal: f.nominal.value,
+      lagu: f.lagu.value,
       foto_atribut: f.foto_atribut.files[0]
         ? await toBase64(f.foto_atribut.files[0])
         : "",
