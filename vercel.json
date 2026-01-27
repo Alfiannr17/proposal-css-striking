@@ -1,0 +1,6 @@
+{
+  "routes": [
+    { "src": "/daftar", "dest": "/daftar.html" },
+    { "src": "/konfirmasi", "dest": "/konfirmasi.html" }
+  ]
+}
