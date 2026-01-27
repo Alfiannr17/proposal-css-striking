@@ -53,9 +53,47 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
-  gap: 12px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
 }
+
+/* 1 kolom di HP */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #ffffff;
+}
+
+
+
+.form-group input,
+.form-group select {
+  padding: 12px;
+  border-radius: 8px;
+ 
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #000;
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.1);
+}
+
 
 input, select, textarea {
   width: 100%;
@@ -81,6 +119,7 @@ textarea {
   margin-top: 10px;
   display: block;
 }
+
 
 .upload input {
   margin-bottom: 10px;
@@ -120,7 +159,6 @@ footer {
     color: #666;
 }
 
-
 button[disabled] {
   background: #555;
   cursor: not-allowed;
@@ -137,4 +175,3 @@ button[disabled] {
   50% { opacity: 1; }
   100% { opacity: 0.2; }
 }
-
