@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Pendaftaran Berhasil</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="card" style="text-align:center">
+    <img src="logoo.png" class="logo">
+    <h2>PENDAFTARAN BERHASIL</h2>
+    <p>Data kamu sudah kami terima.</p>
+    <p>Panitia akan menghubungi via WhatsApp.</p>
+    <a href="index.html" style="color:#ff0000">Kembali</a>
+  </div>
+</div>
+
+</body>
+<footer>
+        <p>&copy; 2026 Cikampek Striking Supporter.</p>
+    </footer>
+</html>
