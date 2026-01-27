@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pendaftaran Fight</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<div class="container">
+
+  <div class="header">
+    <img src="logoo.png" class="logo">
+    <h1>RAMADHAN ARANGE FIGHT</h1>
+    <p>Street Boxing & Striking</p>
+  </div>
+
+  <form id="fightForm" class="card">
+
+    <h2>FORM PENDAFTARAN</h2>
+
+    <div class="grid">
+      <input name="nama" placeholder="Nama Lengkap" required>
+      <input type="date" name="tgl_lahir" required>
+      <input name="usia" placeholder="Usia">
+      <select name="jk">
+        <option value="">Jenis Kelamin</option>
+        <option>Laki-laki</option>
+        <option>Perempuan</option>
+      </select>
+
+      <input name="berat" placeholder="Berat Badan (kg)">
+      <input name="tinggi" placeholder="Tinggi Badan (cm)">
+      <input name="ukuran_baju" placeholder="Ukuran Baju">
+      <input name="kategori" placeholder="Kategori Fight">
+
+      <input name="telp" placeholder="Nomor Telp">
+      <input name="instagram" placeholder="Instagram">
+
+      <input name="camp" placeholder="Camp / Sasana">
+      <input name="pelatih" placeholder="Nama Pelatih">
+      <input name="telp_pelatih" placeholder="No. Telp Pelatih">
+
+      <input name="nominal" placeholder="Nominal Pembayaran">
+    </div>
+
+    <textarea name="riwayat" placeholder="Riwayat Cidera / Penyakit"></textarea>
+
+    <div class="upload">
+      <label>Foto Atribut / Tribun</label>
+      <input type="file" name="foto_atribut" accept="image/*">
+
+      <label>Foto Pose Fight (Tanpa Baju)</label>
+      <input type="file" name="foto_pose" accept="image/*">
+
+      <label>Bukti Pembayaran</label>
+      <input type="file" name="bukti_bayar" accept="image/*">
+    </div>
+
+    <button type="submit">KIRIM PENDAFTARAN</button>
+
+  </form>
+
+</div>
+<footer>
+        <p>&copy; 2026 Cikampek Striking Supporter.</p>
+    </footer>
+
+<script src="script2.js"></script>
+</body>
+</html>
