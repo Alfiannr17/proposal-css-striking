@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #121212;
+  color: #fff;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.header h1 {
+  color: #ff0000;
+  font-size: 28px;
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+
+.header p {
+  letter-spacing: 1px;
+  color: #ccc;
+}
+
+.card {
+  background: #0d0d0d;
+  border: 2px solid #ff0000;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(255,0,0,.3);
+}
+
+.card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ff0000;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+  gap: 12px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background: #1a1a1a;
+  color: #fff;
+}
+
+textarea {
+  margin-top: 12px;
+  min-height: 90px;
+}
+
+.upload {
+  margin-top: 15px;
+}
+
+.upload label {
+  font-size: 14px;
+  margin-top: 10px;
+  display: block;
+}
+
+.upload input {
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  background: linear-gradient(90deg, #ff0000, #b00000);
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 22px;
+  }
+}
+
+/* --- FOOTER --- */
+footer {
+    
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #333;
+    color: #666;
+}
