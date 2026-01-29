@@ -45,7 +45,7 @@ form.addEventListener("submit", async (e) => {
       telp: f.telp.value,
       instagram: f.instagram.value,
       camp: f.camp.value,
-      firm: f.camp.value,
+      firm: f.firm.value,
       pelatih: f.pelatih.value,
       telp_pelatih: f.telp_pelatih.value,
       riwayat: f.riwayat.value,
