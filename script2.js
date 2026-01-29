@@ -1,4 +1,4 @@
-const scriptURL = "https://script.google.com/macros/s/AKfycbyrIVmaKwL1lDBE236mK8zjxn3qwcnGfpVjhVEgMBc8kIxzsdBYv3Zo7z-LyWgH-lZi/exec";
+const scriptURL = "https://script.google.com/macros/s/AKfycbxPAERWcEqPdfCwa-LjkAPnlWM6GXfQmcLiQSmsDGb3y2Hha8gtcXzuU0luKQzgUP2b/exec";
 
 const form = document.getElementById("fightForm");
 const submitBtn = document.getElementById("submitBtn");
