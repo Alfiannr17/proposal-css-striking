@@ -1,4 +1,4 @@
-const scriptURL = "https://script.google.com/macros/s/AKfycbxPAERWcEqPdfCwa-LjkAPnlWM6GXfQmcLiQSmsDGb3y2Hha8gtcXzuU0luKQzgUP2b/exec";
+const scriptURL = "https://script.google.com/macros/s/AKfycbwKjYGQyEaCg-mR2Ka1PdhI1n0YHj-CKUGWfqp60gR4ElRQE2nVdXns-3QEf4XGyCDg/exec";
 
 const form = document.getElementById("fightForm");
 const submitBtn = document.getElementById("submitBtn");
@@ -48,6 +48,7 @@ form.addEventListener("submit", async (e) => {
       firm: f.firm.value,
       pelatih: f.pelatih.value,
       telp_pelatih: f.telp_pelatih.value,
+      pengalaman: f.pengalaman.value,
       riwayat: f.riwayat.value,
       nominal: f.nominal.value,
       lagu: f.lagu.value,
